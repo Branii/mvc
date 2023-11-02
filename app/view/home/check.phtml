@@ -1,0 +1,7 @@
+<?php
+
+$model = new Model;
+$username = $_POST['username'];
+$password = $_POST['password'];
+echo $username . ' ' . $password;
+$model -> checkLogin($username,$password);
